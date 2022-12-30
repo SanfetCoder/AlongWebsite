@@ -1,0 +1,179 @@
+/* HTML ELEMENTS */
+body {
+    margin: 0;
+}
+
+.big-heading {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.carousel-control-prev {
+    width: 80px;
+}
+
+.carousel-control{
+  font-size: 2.2rem;
+}
+
+.carousel-control-next {
+    width: 80px;
+}
+
+.heading {
+    font-size: 2.5rem;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+.card-overlay {
+    position: relative;
+    bottom: 475px;
+    background-color: black;
+    height: 700px;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.large-big-heading {
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.subheading {
+    font-size: 1rem;
+}
+
+#square {
+    width: 5px;
+    height: 130px;
+    background: white;
+    border-radius: 10px;
+  }
+
+/* Font Awesome Customization */
+.fa-lg-custom {
+    font-size: 2.2rem;
+}
+
+/* Bootstrap Element */
+
+
+.nav-item {
+    margin-right: 20%;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: white;
+}
+
+/* SECTION: OUR GOAL */
+#our-goal-section {
+    position: relative;
+    background-image: url(../images/cover-image.jpg);
+    height: 700px;
+    background-size: cover;
+    clip-path: ellipse(1500px 500px at 30% 28%);
+}
+
+#our-goal-section .navbar {
+    position: relative;
+    z-index: 1;
+}
+
+#our-goal-section .navbar-nav {
+    margin: 0 10% 0 auto;
+}
+
+/* SECTION: VISION */
+.vision-btn {
+    position: relative;
+    top: 30px;
+    margin: 0 0.5%;
+}
+
+.vision {
+    position: relative;
+    z-index: 1;
+    margin: 0 0 0 6%;
+    padding: 7% 0 0 0;
+}
+
+
+.vision-heading-our {
+    color: white;
+    font-size: 3rem;
+    line-height: 0.5;
+    font-weight: light;
+}
+
+.vision-heading-vision {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.vision-title {
+    margin-left: 0.1%;
+    margin-top: 3%;
+}
+
+.vision-description {
+    text-align: left;
+    color: white;
+    width: 400px;
+    margin-top: 3%;
+}
+/* BR */
+.br {
+    width: 300px;
+    margin: 5% auto;
+}
+
+.br-discovery {
+    font-size: 2.5rem;
+    margin-left: 3%;
+}
+
+/* SECTION: DISCOVER */
+#discover {
+    margin-top: 2%;
+ 
+    height: 700px;
+    color: white;
+}
+
+.discover-item {
+    padding-left: 8%;
+    padding-top: 5%;
+    height: 700px;
+    background-size: cover;
+}
+
+.discover-item-1 {
+    background-image: url(../images/discover-image.jpg);
+}
+
+.discover-item-2 {
+    background-image: url(../images/discover-khlong-image.jpg);
+}
+
+.discover-item-2 .discover-title {
+    margin-top: 350px;
+    color: white;
+    width: 485px;
+    text-align: left;
+}
+
+.discover-item-3 {
+    background-image: url(../images/discover-market.jpg);
+}
+
+.discover-description {
+    width: 25%;
+    margin: 2% 0;
+}
+
